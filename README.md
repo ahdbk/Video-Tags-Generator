@@ -16,7 +16,13 @@ For this application you will need :
 - ```maven install```
 - In the ```TagGenerator.java ``` class change the ```VIDEO_PATH``` variable with your Video path (for now we support only local saved video)
 - Change this part In the ```TagGenerator.java ``` with your Geteway url and apiKey
-```
-// Here you replace "your_api_key_here" by the API Key you created in "Creating
-// a Watson Visual Recognition service instance and getting the API key"
-service.setApiKey("acc4516893bf5b2fea7b0d4c4942fed4a167e1a1");```
+
+
+### Program output
+Console output
+
+![Screen Image 1](https://github.com/ahdbk/Video-Tags-Generator/blob/master/screen/Screen%20Shot%202017-11-26%20at%2021.37.46.png?raw=true)
+
+Images Output 
+
+![Screen Image 1](https://github.com/ahdbk/Video-Tags-Generator/blob/master/screen/Screen%20Shot%202017-11-26%20at%2021.33.24.png?raw=true)
