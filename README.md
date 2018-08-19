@@ -10,12 +10,12 @@ This application is in Java:
 ### Setup 
 For this application you will need :
 - IBM watson account for the vision you can create one from [here](https://www.ibm.com/watson/)
-- Get your Gateway url and apiKey for the vision Recognition system [documentation here](https://console.bluemix.net/docs/services/visual-recognition/getting-started.html#getting-started-tutorial)
+- Get your Endpoint url and apiKey for the vision Recognition system [documentation here](https://console.bluemix.net/docs/services/visual-recognition/getting-started.html#getting-started-tutorial)
 
 ### Project setup
 - ```maven install```
 - In the ```TagGenerator.java ``` class change the ```VIDEO_PATH``` variable with your Video path (for now we support only local saved video)
-- Change this part In the ```TagGenerator.java ``` with your Geteway url and apiKey
+- add In the ```TagGenerator.java ```  your IBM watson endpoint url and apiKey (change the existing ones)
 
 
 ### Program output
